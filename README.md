@@ -1,6 +1,6 @@
 # 제주감수꽝
 
-![image](/uploads/134ac680e184e6fb1360e34598c43437/image.png) <br>
+![logo](./wiki/img/logo.svg) <br>
 -   제주 랜드마크 추천 및 공유 AI 웹 서비스
 
 
@@ -66,41 +66,41 @@
 
 ### 서비스 구조도
 
-![image](/uploads/ba446552e440d7183809cca738f2dfae/image.png)
+![service architecture](./wiki/img/serviceArchitecture.png)
 
 ### Home
-![home스크린샷](/uploads/f77d5b3f9df32077bacad5231f007ab1/home스크린샷.png)
+![home스크린샷](./wiki/img/home.png)
 home 화면에 접속해 검색어로 검색을 하거나 이미지로 검색하기를 누르면 사진 파일을 선택할 수 있고, 로딩이 끝나면 검색결과를 확인 할 수 있습니다.
 
 ### 추천 랜드마크 목록
-![image](/uploads/84e44d1a4a5b9c1cf19041e503c316e9/image.png) <br>
+![landmarkList](./wiki/img/landmarkList.png) <br>
 추천 랜드마크의 목록을 보여주며, 좋아요순, 리뷰순, 리뷰평점순으로 정렬할 수 있습니다.
 
 ### 랜드마크 상세정보 페이지
-![image](/uploads/2f93686a5adc6a7e6865c7165c58a22d/image.png) <br>
+![landmarkDetail](./wiki/img/landmarkDetail.png) <br>
 랜드마크의 상세정보와 평점을 볼 수 있습니다.
 
 ### Review
-![image](/uploads/e6dfadeede6d9985de2fa3ab9592537d/image.png) <br>
+![review](./wiki/img/Review.png) <br>
 랜드마크 인증한 유저가 리뷰와 평점을 작성할 수 있습니다.
 
 ### Community
-![image](/uploads/4ce63237980cf368f78ad6513387db7c/image.png)
+![community](wiki/img/community.png)
 커뮤니티 게시글을 머리글로 정렬할 수 있으며, 페이지네이션을 이용해 구현되었습니다. 글쓰기는 수정, 삭제가 가능하며 에디터를 이용해 작성할 수 있습니다.
 
 ### Map
-![image](/uploads/4e37c29414bdec93bd4a9fb0ae292282/image.png)  <br>
+![map](wiki/img/map.png)  <br>
 카카오 맵 api를 이용해 랜드마크의 위치를 알 수 있고, 클릭하면 카카오맵으로 연결됩니다.
 
 ### Mypage
-![image](/uploads/be3d4554a9e5dc41b3c5ef9e5ee51997/image.png)
+![mypage](wiki/img/mypage.png)
 회원 정보, 수정이 가능하며 Mymap에서는 스탬프 10개 단위로 레벨을 올려줍니다. (lv.1 감귤 > lv.2 도야지 > lv.3 야자수 > lv.4 한라산 > lv.5 동백꽃 > lv.6 돌하르방) <br>
 이미지 인증 버튼을 누르고 파일을 선택하면 Mystamp에는 인증한 랜드마크 하나당 스탬프를 찍어줍니다. <br>
 
 ### Service Introduce
-![image](/uploads/7b0056bd6bd9d6149144bdce872f1a84/image.png) <br>
-![image](/uploads/f40a1366ad6877e5e1472d712195b9c9/image.png) <br>
-![image](/uploads/6447c8d0b7220ec85a0f7990a0208b8e/image.png) <br>
+![serviceIntroduce1](wiki/img/serviceIntroduce1.png) <br>
+![serviceIntroduce2](wiki/img/serviceIntroduce2.png) <br>
+![serviceIntroduce3](wiki/img/serviceIntroduce3.png) <br>
 서비스를 소개하는 페이지 입니다.
 
 ## 4. 프로젝트 팀원
@@ -173,9 +173,9 @@ home 화면에 접속해 검색어로 검색을 하거나 이미지로 검색하
 다양한 모델 테스트 과정과 [ILSVRC](https://www.image-net.org/challenges/LSVRC/), [DACORN-랜드마크 분류 AI 경진대회](https://dacon.io/competitions/official/235585/overview/description)의 우승 경력을 고려하여 ResNet101 모델을 제주도 랜드마크 이미지 분류 학습을 위한 모델로 선정
 * ResNet   
 ResNet은 기본적으로 VGG-19의 구조를 뼈대로 함. 컨볼루션 층들을 추가해 깊게 만든 후, shortcut들을 추가한 구조   
-![image](/uploads/128491fe3ed318959e14a83017574401/image.png)   
+![resnet1](wiki/img/resnet1.png)   
 아래 표는 18층, 34층, 50층, 101층, 152층의 ResNet의 구조 요약   
-![image](/uploads/27ec4224d9950efdb9957226dd91fe89/image.png) <br/> 
+![resnet2](wiki/img/resnet2.png) <br/> 
 ResNet은 [ILSVRC](https://www.image-net.org/challenges/LSVRC/)(ImageNet Large Scale Visual Recognition Challenge) 2015에서 우승한 모델로 이미지 분류 인식 오류율 3.8%로 1등을 차지한 모델   
     
 논문 : [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
