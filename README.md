@@ -32,7 +32,7 @@
 
 ### 모델 및 데이터셋 
 
-#### [AIHub-랜드마크 이미지](https://aihub.or.kr/aidata/8009)
+#### [AIHub-랜드마크 이미지](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=56)
 국내 랜드마크 이미지
 
 #### [visitjeju.net](https://www.visitjeju.net/kr))
