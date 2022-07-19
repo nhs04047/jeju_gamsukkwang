@@ -178,10 +178,7 @@
 ### 시연 영상
 <br>
 
-<video controls width="652">
-    <source src="./wiki/video/데모시연영상.mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+[![Watch the video](https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png)](https://youtu.be/L9IzsZCiF_E)
 
 <br>
 
