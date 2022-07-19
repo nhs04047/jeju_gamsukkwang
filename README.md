@@ -175,7 +175,18 @@
 ```
 <br>
 
+### 시연 영상
+<br>
+
+<video controls width="652">
+    <source src="./wiki/video/데모시연영상.mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<br>
+
 ### 서비스 상세 페이지
+
 <br>
 
 📄 **home**
