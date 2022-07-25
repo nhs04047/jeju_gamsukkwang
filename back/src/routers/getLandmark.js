@@ -33,7 +33,7 @@ const addLandmark = async ({
 getLandmark.post("/landmark", async (req, res, next) => {
   const { cid } = req.body;
   const response = await axios.get(
-    `https://api.visitjeju.net/vsjApi/contents/searchList?apiKey=ggxyk5zq6syr4q5n&locale=kr&cid=${cid}`,
+    `${process.env.VSJAPI_PATH}=${cid}`,
   );
   let { title, roadaddress, introduction, phoneno, latitude, longitude } =
     response.data.items[0];
