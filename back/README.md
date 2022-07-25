@@ -126,3 +126,17 @@ back
     "swagger-jsdoc": "^6.2.1",
     "swagger-ui-express": "^4.4.0"
 ```
+
+### 환경 변수
+```
+// .env
+
+SERVER_PORT=
+AI_SERVER_URL=
+MONGODB_URL=
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=
+AWS_S3_BUCKET=
+```
+

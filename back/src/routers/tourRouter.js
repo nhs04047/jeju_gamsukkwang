@@ -65,7 +65,7 @@ tourRouter.post("/tour/image", s3Single(), async (req, res, next) => {
     }
 
     const sendImage = await axios.post(
-      "http://kdt-ai4-team08.elicecoding.com:5003/prediction",
+      `${process.env.AI_SERVER_URL}/prediction`,
       {
         imageURL: location, // s3에 저장된 이미지 url을 ai로 보내기
       },
