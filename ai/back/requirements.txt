@@ -10,6 +10,7 @@ colorama==0.4.5
 Flask==2.1.2
 Flask-Cors==3.0.10
 flask-swagger-ui==4.11.1
+Flask-WTF==1.0.1
 flatbuffers==1.12
 gast==0.4.0
 google-auth==2.9.0
@@ -56,3 +57,4 @@ typing_extensions==4.2.0
 urllib3==1.26.9
 Werkzeug==2.1.2
 wrapt==1.14.1
+WTForms==3.0.1

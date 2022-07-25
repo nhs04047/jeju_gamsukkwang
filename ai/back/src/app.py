@@ -3,6 +3,7 @@ from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 import json
 import prediction
+from validator import imageFrom 
 
 application = Flask(__name__)
 cors = CORS(application)
@@ -27,6 +28,11 @@ def index():
 @application.route('/prediction', methods=['POST'])
 def post():
   if request.method == 'POST':
+
+    form = imageFrom(meta={"csrf": False})
+    if not form.validate() :
+      abort(400, form.errors)
+
     req = request.get_json()
     try:
       imageURL = req['imageURL']
