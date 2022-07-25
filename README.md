@@ -178,7 +178,7 @@
 ### 시연 영상
 <br>
 
-[![Watch the video](https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png)](https://youtu.be/L9IzsZCiF_E)
+[![Watch the video](https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png)](https://youtu.be/L9IzsZCiF_E){:target="_blank"}
 
 <br>
 
