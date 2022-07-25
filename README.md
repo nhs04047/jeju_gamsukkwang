@@ -176,7 +176,7 @@
 <br>
 
 ### 시연 영상
-<a href="https://youtu.be/L9IzsZCiF_E" target="_blank"><img src="https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png"/></a>
+<a href="https://youtu.be/L9IzsZCiF_E" target="_blank" rel="noreferrer noopener"><img src="https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png"/></a>
 
 <br>
 
