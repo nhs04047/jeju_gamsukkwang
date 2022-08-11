@@ -1,6 +1,7 @@
 # 제주감수꽝
 
 ![logo](./wiki/img/logo.svg) <br>
+<img width="247" alt="image" src="https://user-images.githubusercontent.com/71453094/184180389-011ea69f-b408-4640-9f40-9e706acd59ff.png">
 -   제주 랜드마크 추천 및 공유, AI 기반 랜드마크 이미지 예측 웹 서비스
 
 
