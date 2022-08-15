@@ -276,7 +276,7 @@ home 화면에 접속해 검색어로 검색을 하거나 이미지로 검색하
 
 ### Train/Test/Validation split   
 * ```splitfolders```라이브러리를 이용해 ```8:1:1``` 비율로 split   
-* split 코드 - [trainTestSplitImage.py](./utils/trainTestSplitImage.py)   
+* split 코드 - [trainTestSplitImage.py](./ai/utils/trainTestSplitImage.py)   
 <br>
 
 ### Data Augmentation
