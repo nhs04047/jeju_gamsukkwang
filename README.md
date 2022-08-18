@@ -1,6 +1,7 @@
 # 제주감수꽝
 
 ![logo](./wiki/img/logo.svg) <br>
+<img width="247" alt="image" src="https://user-images.githubusercontent.com/71453094/184180389-011ea69f-b408-4640-9f40-9e706acd59ff.png">
 -   제주 랜드마크 추천 및 공유, AI 기반 랜드마크 이미지 예측 웹 서비스
 
 
@@ -176,9 +177,7 @@
 <br>
 
 ### 시연 영상
-<br>
-
-[![Watch the video](https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png)](https://youtu.be/L9IzsZCiF_E)
+<a href="https://youtu.be/L9IzsZCiF_E" target="_blank" rel="noreferrer noopener"><img src="https://user-images.githubusercontent.com/71453094/179664898-aec749ef-8618-4e4f-b03d-78571f1537f5.png"/></a>
 
 <br>
 
@@ -277,7 +276,7 @@ home 화면에 접속해 검색어로 검색을 하거나 이미지로 검색하
 
 ### Train/Test/Validation split   
 * ```splitfolders```라이브러리를 이용해 ```8:1:1``` 비율로 split   
-* split 코드 - [trainTestSplitImage.py](./utils/trainTestSplitImage.py)   
+* split 코드 - [trainTestSplitImage.py](./ai/utils/trainTestSplitImage.py)   
 <br>
 
 ### Data Augmentation
